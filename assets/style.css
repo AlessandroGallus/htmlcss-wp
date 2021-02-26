@@ -58,11 +58,16 @@ header .immagine{
   background-position: center center;
   border-radius: 15px;
 }
+.titoloimg{
+  font-size:22px;
+  width: 55%;
+  opacity: 1;
+  color: white;
+}
 .testoimg{
-    display: inline-block;
-    float:left;
     width: 55%;
-    
+    opacity: 1;
+    color: white;
 }
 
   main{
@@ -143,4 +148,15 @@ footer p::after{
   content: "\2665";
   color:#ff0000;
   font-size:15px;
+}
+.background{
+  background-color: black;
+  opacity: 0.3;
+  width: 100%;
+  height: 100%;
+  border-radius:15px;
+}
+.paddingimg{
+  padding-top:450px;
+  padding-left:40px;
 }
