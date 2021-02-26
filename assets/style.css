@@ -8,38 +8,105 @@
   display: table;
   clear:both;
 }
+body{
+  font-family: "Montserrat", sans-serif ;
+}
 .box{
   width:75%;
   margin:auto;
 }
-header .titolo{
+nav{
+  margin-bottom: 30px;
+}
+header nav ul li{
+    list-style-type: none;
+    padding-right:20px;
+    font-size: 20px;
+    display: inline;
+    text-decoration: none;
+    font-size:15px;
+}
+a{
+  text-decoration: none;
+  color:gray;
+  text-transform: uppercase;
+}
+a:hover{
+  color:orangered;
+}
+.logo_img{
+  width:150px;
+  padding-right:20px;
+  border-right:1px solid lightgray;
+}
+header .logo{
   width:100%;
-  height:200px;
-  background-color: #E579E6;
-  margin-bottom: 20px;
+  vertical-align:middle;
+  margin-bottom:20px
+}
+.vr{
+  
+  height:84.66px;
+  display: inline-block;
 }
 header .immagine{
   width:100%;
-  height:500px;
-  background-color: #E1D67A;
+  height: 600px;
   margin-bottom: 20px;
+  background-image:url("img/banner.jpg");
+  background-size: cover;
+  background-position: center center;
+  border-radius: 15px;
 }
+.testoimg{
+    display: inline-block;
+    float:left;
+    width: 55%;
+    
+}
+
   main{
   width:100%;
-  background-color: #0485FA;
   padding-bottom: 2%;
   margin-bottom: 10px;
 }
 .head{
   width:100%;
-  background-color: #ABCFE7;
-  margin-bottom:2%;
-  height: 100px;
+  margin-bottom:40px;
 }
-
+.titolo{
+  font-size: 35px;
+  font-weight: bold;
+}
+.sottotitolo{
+  color:grey;
+  font-size:15px;
+}
+.immagine1{
+  background-image:url("img/img-1.jpg");
+  background-size:cover;
+  width:100%;
+  height: 202px;
+  border-radius: 15px;
+}
+.immagine2{
+  background-image:url("img/banner-2.jpg");
+  background-position: center center;
+  background-size:cover;
+  width:100%;
+  height: 202px;
+  border-radius: 15px;
+}
+.immagine3{
+  background-image:url("img/img-3.jpg");
+  background-size:cover;
+  width:100%;
+  height: 202px;
+  border-radius: 15px;
+  background-color:rgba(255, 255, 255, 0,5)
+}
 .center
 {
-  background-color: #ABCFE7;
   width: 56%;
   margin: 0 2%;
 }
@@ -47,7 +114,6 @@ header .immagine{
 .left,
 .right
 {
-  background-color: #ABCFE7;
   width: 20%;
   
 }
@@ -56,13 +122,25 @@ header .immagine{
 .center,
  .right
 {
-  float: left;
-  height: 400px;
+  float: left;  
 }
-
+.tp/* titolo paragrafo */{
+    font-size:18px;
+    font-weight:bold;
+}
+.testo{
+  color:grey;
+  font-size:15px;
+}
 
 footer{
   width:100%;
-  height: 100px;
-  background-color:#8801FE;
+  margin:auto;
+  width:100px;
+  font-size: 15px;
+}
+footer p::after{
+  content: "\2665";
+  color:#ff0000;
+  font-size:15px;
 }
